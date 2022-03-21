@@ -154,6 +154,7 @@ class CurrencyTextInputFormatter extends TextInputFormatter {
 
   /// Get String type value with format such as `$ 2,000.00`
   String getFormattedValue() {
+    _newString = _newString.replaceAll(".", ",");
     return _newString;
   }
 
