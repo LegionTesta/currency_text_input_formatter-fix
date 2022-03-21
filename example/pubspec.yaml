@@ -1,0 +1,23 @@
+name: example
+version: 1.0.0
+homepage: https://github.com/gtgalone/currency_text_input_formatter
+publish_to: "none"
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  currency_text_input_formatter:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  test: ^1.15.7
+
+dependency_overrides:
+  currency_text_input_formatter:
+    path: ../
